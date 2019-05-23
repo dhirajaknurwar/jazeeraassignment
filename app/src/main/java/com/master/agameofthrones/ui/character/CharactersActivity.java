@@ -48,7 +48,7 @@ public class CharactersActivity extends BaseActivity implements CharacterDataCon
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_common_layout);
-        setActivityTitle(String.valueOf(getIntent().getStringExtra("author")));
+        setActivityTitle(String.valueOf(getIntent().getStringExtra("author")+" --  Characters"));
         setDisplayHomeAsUpEnabled(true);
         mCharacterDataAdapter = new CharacterDataAdapter(dataModelArrayList);
         mCharacterDataAdapter.setCallbacks(this);
