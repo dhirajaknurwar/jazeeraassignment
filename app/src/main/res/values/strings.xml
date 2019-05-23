@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">A game of thrones</string>
+    <string name="no_internet">No internet</string>
+    <string name="connection_timeout">Connection timeout</string>
+</resources>
